@@ -1,0 +1,28 @@
+{
+  "Nombre": "BNB",
+  "Empleados": [
+    {
+      "Nombre": "Julian",
+      "Ci": 1313,
+      "Fono": 7562
+    },
+    {
+      "Nombre": "Karen",
+      "Ci": 1312,
+      "Fono": 7567
+    },
+    {
+      "Nombre": "Marlene",
+      "Ci": 1314,
+      "Fono": 7547
+    }
+  ],
+  "Proyectos": [
+    {
+      "Nro": 1,
+      "Nombre": "Inventario},{"
+      "Nro\":2,\"Nombre\":\"Balances",
+    },
+    {
+      "Nro": 3,
+      "Nombre": "Recursos}]}
