@@ -1,0 +1,73 @@
+{
+  "Nombre": "BOA",
+  "Pasajeros": [
+    {
+      "Nombre": "Maria",
+      "Ci": 1312,
+      "Telefono": 7758
+    },
+    {
+      "Nombre": "Raul",
+      "Ci": 1313,
+      "Telefono": 7124
+    },
+    {
+      "Nombre": "Jose",
+      "Ci": 1314,
+      "Telefono": 7668
+    }
+  ],
+  "Aviones": [
+    {
+      "Codigo": 123,
+      "Capacidad": 30,
+      "Modelo": "Boeing"
+    },
+    {
+      "Codigo": 124,
+      "Capacidad": 35,
+      "Modelo": "Cessna"
+    }
+  ],
+  "Vuelos": [
+    {
+      "Codigo": 1,
+      "Origen": "Cochabamba",
+      "Destino": "Santa Cruz",
+      "Avion": {
+        "Codigo": 123,
+        "Capacidad": 30,
+        "Modelo": "Boeing"
+      },
+      "Pasajeros": [
+        {
+          "Nombre": "Raul",
+          "Ci": 1313,
+          "Telefono": 7124
+        },
+        {
+          "Nombre": "Maria",
+          "Ci": 1312,
+          "Telefono": 7758
+        }
+      ]
+    },
+    {
+      "Codigo": 2,
+      "Origen": "Tarija",
+      "Destino": "Cochabamba",
+      "Avion": {
+        "Codigo": 124,
+        "Capacidad": 35,
+        "Modelo": "Cessna"
+      },
+      "Pasajeros": [
+        {
+          "Nombre": "Jose",
+          "Ci": 1314,
+          "Telefono": 7668
+        }
+      ]
+    }
+  ]
+}
