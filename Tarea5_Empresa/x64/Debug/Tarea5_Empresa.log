@@ -1,0 +1,12 @@
+﻿  Capacitacion.cpp
+  Empleado.cpp
+  Empresa.cpp
+  ModCapacitacion.cpp
+  ModEmpleado.cpp
+  ModSesion.cpp
+  Sesion.cpp
+C:\Users\MSI-\Documents\PROGRAMACION 2\COMPETENCIA 1\Tarea5_Empresa\Tarea5_Empresa\Sesion.cpp(36,8): warning C4129: “N”: secuencia de escape de caracteres no reconocida
+C:\Users\MSI-\Documents\PROGRAMACION 2\COMPETENCIA 1\Tarea5_Empresa\Tarea5_Empresa\Sesion.cpp(37,8): warning C4129: “A”: secuencia de escape de caracteres no reconocida
+  Tarea5_Empresa.cpp
+  Generando código...
+  Tarea5_Empresa.vcxproj -> C:\Users\MSI-\Documents\PROGRAMACION 2\COMPETENCIA 1\Tarea5_Empresa\x64\Debug\Tarea5_Empresa.exe

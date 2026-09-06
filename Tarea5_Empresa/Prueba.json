@@ -1,0 +1,39 @@
+{
+  "Nombre": "ABCA",
+  "Empleados": [
+    {
+      "Nombre": "Beatriz Soto",
+      "Ci": 14845,
+      "Area de Especializacion": "Ventas",
+      "Anios de experiencia": "1"
+    },
+    {
+      "Nombre": "Carlos",
+      "Ci": 55456,
+      "Area de Especializacion": "Ventas",
+      "Anios de experiencia": "2"
+    }
+  ],
+  "Capacitaciones": [
+    {
+      "Codigo": 1,
+      "Nombre": "Atencion al cliente",
+      "Instructores": [
+        {
+          "Nombre": "Carlos",
+          "Ci": 55456,
+          "Area de Especializacion": "Ventas",
+          "Anios de experiencia": "2"
+        }
+      ],
+      "Inscritos": [
+        {
+          "Nombre": "Beatriz Soto",
+          "Ci": 14845,
+          "Area de Especializacion": "Ventas",
+          "Anios de experiencia": "1"
+        }
+      ]
+    }
+  ]
+}
