@@ -1,0 +1,126 @@
+{
+  "Nombre": "Tribunal electoral",
+  "Electores": [
+    {
+      "CI": 1313,
+      "Nombre": "Juan",
+      "Fono": 7758
+    },
+    {
+      "CI": 1314,
+      "Nombre": "Julian",
+      "Fono": 7766
+    },
+    {
+      "CI": 1315,
+      "Nombre": "Karen",
+      "Fono": 7658
+    },
+    {
+      "CI": 1316,
+      "Nombre": "Tatiana",
+      "Fono": 7548
+    },
+    {
+      "CI": 1317,
+      "Nombre": "Pedro",
+      "Fono": 7254
+    }
+  ],
+  "Recintos": [
+    {
+      "Codigo": 1,
+      "Nombre": "San Agustin",
+      "Direccion": "Av.America"
+    },
+    {
+      "Codigo": 2,
+      "Nombre": "Pedro Poveda",
+      "Direccion": "Av.America"
+    }
+  ],
+  "Mesas": [
+    { "Codigo": 1 },
+    { "Codigo": 2 }
+  ],
+  "Elecciones": [
+    {
+      "Codigo": 1,
+      "Descripcion": "Revocatorio",
+      "Fecha": "01/02/2027",
+      "Electores": [
+        {
+          "CI": 1313,
+          "Nombre": "Juan",
+          "Fono": 7758
+        },
+        {
+          "CI": 1314,
+          "Nombre": "Julian",
+          "Fono": 7766
+        },
+        {
+          "CI": 1316,
+          "Nombre": "Tatiana",
+          "Fono": 7548
+        }
+      ],
+      "Recintos": [
+        {
+          "Recinto": {
+            "Codigo": 1,
+            "Nombre": "San Agustin",
+            "Direccion": "Av.America"
+          },
+          "MesasAsignada": [
+            {
+              "Nro": 1,
+              "Electores": [
+                {
+                  "CI": 1313,
+                  "Nombre": "Juan",
+                  "Fono": 7758
+                }
+              ],
+              "Jurados": [
+                {
+                  "CI": 1316,
+                  "Nombre": "Tatiana",
+                  "Fono": 7548
+                }
+              ],
+              "Mesa": { "Codigo": 1 }
+            }
+          ]
+        },
+        {
+          "Recinto": {
+            "Codigo": 2,
+            "Nombre": "Pedro Poveda",
+            "Direccion": "Av.America"
+          },
+          "MesasAsignada": [
+            {
+              "Nro": 2,
+              "Electores": [
+                {
+                  "CI": 1317,
+                  "Nombre": "Pedro",
+                  "Fono": 7254
+                }
+              ],
+              "Jurados": [
+                {
+                  "CI": 1315,
+                  "Nombre": "Karen",
+                  "Fono": 7658
+                }
+              ],
+              "Mesa": { "Codigo": 2 }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
