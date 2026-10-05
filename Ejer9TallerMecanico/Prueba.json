@@ -1,0 +1,150 @@
+{
+  "clientes": [
+    {
+      "ci": 12346,
+      "nombre": "Juan",
+      "fono": 55556,
+      "vehiculos": [
+        {
+          "placa": "rtyu",
+          "modelo": 20000
+        }
+      ]
+    },
+    {
+      "ci": 12347,
+      "nombre": "Maria",
+      "fono": 55557,
+      "vehiculos": [
+        {
+          "placa": "vbnm",
+          "modelo": 50000
+        }
+      ]
+    },
+    {
+      "ci": 12345,
+      "nombre": "Pedro",
+      "fono": 55555,
+      "vehiculos": [
+        {
+          "placa": "asdf",
+          "modelo": 5000
+        },
+        {
+          "placa": "qwer",
+          "modelo": 10000
+        }
+      ]
+    }
+  ],
+  "servicios": [
+    {
+      "tipo": "Mantenimiento",
+      "codigo": 1,
+      "descripcion": "5MKM",
+      "costo": 1000,
+      "kilometros": "5500"
+    },
+    {
+      "tipo": "Chaperia",
+      "codigo": 2,
+      "descripcion": "chaperia",
+      "costo": 1000,
+      "detalle": "Arreglos"
+    },
+    {
+      "tipo": "Chaperia",
+      "codigo": 3,
+      "descripcion": "pintura",
+      "costo": 500,
+      "detalle": "Pintado y pulido"
+    },
+    {
+      "tipo": "Mantenimiento",
+      "codigo": 4,
+      "descripcion": "10MKM",
+      "costo": 2000,
+      "kilometros": "1080"
+    }
+  ],
+  "reservas": [
+    {
+      "ReservaSimple": {
+        "id": 1,
+        "cliente": {
+          "ci": 12345,
+          "nombre": "Pedro",
+          "fono": 55555
+        },
+        "vehiculo": {
+          "placa": "asdf",
+          "modelo": 5000
+        }
+      },
+      "atencion": {
+        "tipo": "Mantenimiento",
+        "codigo": 1,
+        "descripcion": "5MKM",
+        "costo": 1000,
+        "kilometros": "5500"
+      }
+    },
+    {
+      "ReservaCombo": {
+        "id": 3,
+        "cliente": {
+          "ci": 12346,
+          "nombre": "Juan",
+          "fono": 55556
+        },
+        "vehiculo": {
+          "placa": "rtyu",
+          "modelo": 20000
+        }
+      },
+      "atencion1": {
+        "tipo": "Mantenimiento",
+        "codigo": 4,
+        "descripcion": "10MKM",
+        "costo": 2000,
+        "kilometros": "1080"
+      },
+      "atencion2": {
+        "tipo": "Chaperia",
+        "codigo": 2,
+        "descripcion": "chaperia",
+        "costo": 1000,
+        "detalle": "Arreglos"
+      }
+    },
+    {
+      "ReservaCombo": {
+        "id": 4,
+        "cliente": {
+          "ci": 12347,
+          "nombre": "Maria",
+          "fono": 55557
+        },
+        "vehiculo": {
+          "placa": "vbnm",
+          "modelo": 50000
+        }
+      },
+      "atencion1": {
+        "tipo": "Chaperia",
+        "codigo": 3,
+        "descripcion": "pintura",
+        "costo": 500,
+        "detalle": "Pintado y pulido"
+      },
+      "atencion2": {
+        "tipo": "Mantenimiento",
+        "codigo": 1,
+        "descripcion": "5MKM",
+        "costo": 1000,
+        "kilometros": "5500"
+      }
+    }
+  ]
+}
