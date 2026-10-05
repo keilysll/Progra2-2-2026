@@ -1,0 +1,64 @@
+{
+  "nombre": "Vida",
+  "direccion": "Av. Arce",
+  "consultorios": [
+    {
+      "numero": 101,
+      "medicos": [
+        {
+          "nombre": "Ana",
+          "turno": "Manana",
+          "consultas": [
+            {
+              "paciente": "Carlos",
+              "costo": 150,
+              "duracion": 30,
+              "tipo": "presencial"
+            },
+            {
+              "paciente": "Elena",
+              "costo": 100,
+              "plataforma": "Zoom",
+              "tipo": "virtual"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 202,
+      "medicos": [
+        {
+          "nombre": "Luis",
+          "especialidad": "Cardiologia",
+          "consultas": [
+            {
+              "paciente": "Pedro",
+              "costo": 300,
+              "duracion": 45,
+              "tipo": "presencial"
+            }
+          ]
+        },
+        {
+          "nombre": "Rosa",
+          "especialidad": "Pediatria",
+          "consultas": [
+            {
+              "paciente": "Lucia",
+              "costo": 200,
+              "plataforma": "Zoom",
+              "tipo": "virtual"
+            },
+            {
+              "paciente": "Diego",
+              "costo": 200,
+              "duracion": 30,
+              "tipo": "presencial"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
