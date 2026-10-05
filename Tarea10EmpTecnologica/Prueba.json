@@ -1,0 +1,39 @@
+{
+  "nombre": "TechCorp",
+  "proyectos": [
+    {
+      "nombre": "Portal Ventas",
+      "tecnologia": "React",
+      "tipo": "web",
+      "modelos": [
+        {
+          "nombre": "GPT-4",
+          "contexto": 128000,
+          "tipo": "chat"
+        },
+        {
+          "nombre": "CodeLlama",
+          "lenguajes": "Python,C++",
+          "tipo": "codigo"
+        }
+      ]
+    },
+    {
+      "nombre": "AppMovil",
+      "plataforma": "Android",
+      "tipo": "movil",
+      "modelos": [
+        {
+          "nombre": "Mistral",
+          "lenguajes": "Java,JS",
+          "tipo": "codigo"
+        },
+        {
+          "nombre": "Gemini",
+          "contexto": 32000,
+          "tipo": "chat"
+        }
+      ]
+    }
+  ]
+}
