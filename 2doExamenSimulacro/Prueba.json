@@ -1,0 +1,42 @@
+{
+  {
+    "expediciones": [
+      {
+        "id": 1,
+        "criaturaCodigo": 1,
+        "equipo": "Equipo Alpha",
+        "muestras": [
+          {
+            "tipo": "biologica",
+            "codigo": 10,
+            "descripcion": "Pluma de fenix",
+            "pesoGramos": 200,
+            "pureza": 95
+          },
+          {
+            "tipo": "energetica",
+            "codigo": 11,
+            "descripcion": "Residuo magico",
+            "energia": 30,
+            "radiacion": 4
+          }
+        ],
+        "valorCientifico": 150
+      },
+      {
+        "id": 3,
+        "criaturaCodigo": 2,
+        "equipo": "Equipo Alpha",
+        "muestras": [
+          {
+            "tipo": "biologica",
+            "codigo": 12,
+            "descripcion": "Pluma de grifo",
+            "pesoGramos": 150,
+            "pureza": 80
+          }
+        ],
+        "valorCientifico": 89
+      }
+    ]
+  }
