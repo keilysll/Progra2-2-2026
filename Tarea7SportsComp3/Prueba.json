@@ -1,0 +1,148 @@
+{
+  "id": 1,
+  "nombre": "Copa Andina",
+  "partidas": [
+    {
+      "PartidaEquipo": {
+        "id": 4,
+        "ganador": {
+          "nombre": "TeamBeta",
+          "region": "Sudamerica",
+          "jugadores": [
+            {
+              "tipo": "pro",
+              "id": 4,
+              "nickname": "Nova",
+              "pais": "Bolivia",
+              "ranking": 12,
+              "salario": 2000
+            },
+            {
+              "tipo": "pro",
+              "id": 6,
+              "nickname": "Storm",
+              "pais": "Chile",
+              "ranking": 3,
+              "salario": 4000
+            }
+          ]
+        },
+        "perdedor": {
+          "nombre": "TeamAlpha",
+          "region": "Sudamerica",
+          "jugadores": [
+            {
+              "tipo": "pro",
+              "id": 3,
+              "nickname": "Ace",
+              "pais": "Chile",
+              "ranking": 5,
+              "salario": 3000
+            },
+            {
+              "tipo": "pro",
+              "id": 5,
+              "nickname": "Blaze",
+              "pais": "Peru",
+              "ranking": 8,
+              "salario": 2500
+            }
+          ]
+        },
+        "duracion": 25
+      }
+    },
+    {
+      "PartidaIndividual": {
+        "id": 2,
+        "ganador": {
+          "tipo": "pro",
+          "id": 3,
+          "nickname": "Ace",
+          "pais": "Chile",
+          "ranking": 5,
+          "salario": 3000
+        },
+        "perdedor": {
+          "tipo": "pro",
+          "id": 4,
+          "nickname": "Nova",
+          "pais": "Bolivia",
+          "ranking": 12,
+          "salario": 2000
+        },
+        "duracion": 30
+      }
+    },
+    {
+      "PartidaIndividual": {
+        "id": 1,
+        "ganador": {
+          "tipo": "amateur",
+          "id": 1,
+          "nickname": "xDragon",
+          "pais": "Bolivia",
+          "nivel": "avanzado"
+        },
+        "perdedor": {
+          "tipo": "amateur",
+          "id": 2,
+          "nickname": "StarKid",
+          "pais": "Peru",
+          "nivel": "intermedio"
+        },
+        "duracion": 45
+      }
+    },
+    {
+      "PartidaEquipo": {
+        "id": 3,
+        "ganador": {
+          "nombre": "TeamAlpha",
+          "region": "Sudamerica",
+          "jugadores": [
+            {
+              "tipo": "pro",
+              "id": 3,
+              "nickname": "Ace",
+              "pais": "Chile",
+              "ranking": 5,
+              "salario": 3000
+            },
+            {
+              "tipo": "pro",
+              "id": 5,
+              "nickname": "Blaze",
+              "pais": "Peru",
+              "ranking": 8,
+              "salario": 2500
+            }
+          ]
+        },
+        "perdedor": {
+          "nombre": "TeamBeta",
+          "region": "Sudamerica",
+          "jugadores": [
+            {
+              "tipo": "pro",
+              "id": 4,
+              "nickname": "Nova",
+              "pais": "Bolivia",
+              "ranking": 12,
+              "salario": 2000
+            },
+            {
+              "tipo": "pro",
+              "id": 6,
+              "nickname": "Storm",
+              "pais": "Chile",
+              "ranking": 3,
+              "salario": 4000
+            }
+          ]
+        },
+        "duracion": 60
+      }
+    }
+  ]
+}
