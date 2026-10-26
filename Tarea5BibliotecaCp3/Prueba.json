@@ -1,0 +1,93 @@
+{
+  "libros": [
+    {
+      "tipo": "fisico",
+      "codigo": 1,
+      "titulo": "Cien Anios de Soledad",
+      "autor": "Garcia Marquez",
+      "ejemplares": 3
+    },
+    {
+      "tipo": "digital",
+      "codigo": 2,
+      "titulo": "El Principito",
+      "autor": "Saint-Exupery",
+      "tamanioMB": 5
+    },
+    {
+      "tipo": "fisico",
+      "codigo": 3,
+      "titulo": "Don Quijote",
+      "autor": "Cervantes",
+      "ejemplares": 2
+    },
+    {
+      "tipo": "digital",
+      "codigo": 4,
+      "titulo": "1984",
+      "autor": "Orwell",
+      "tamanioMB": 8
+    }
+  ],
+  "prestamos": [
+    {
+      "PrestamoRenovado": {
+        "id": 3,
+        "socio": {
+          "ci": 3002,
+          "nombre": "Leonardo Castro",
+          "email": "leonardo@mail.com"
+        },
+        "libro": {
+          "tipo": "fisico",
+          "codigo": 3,
+          "titulo": "Don Quijote",
+          "autor": "Cervantes",
+          "ejemplares": 2
+        },
+        "fechaInicio": 20240201,
+        "fechaDevolucion": 20240301
+      },
+      "nuevaFecha": 20240315,
+      "motivo": "viaje"
+    },
+    {
+      "PrestamoSimple": {
+        "id": 2,
+        "socio": {
+          "ci": 3003,
+          "nombre": "Elena Castro",
+          "email": "elena@mail.com"
+        },
+        "libro": {
+          "tipo": "digital",
+          "codigo": 2,
+          "titulo": "El Principito",
+          "autor": "Saint-Exupery",
+          "tamanioMB": 5
+        },
+        "fechaInicio": 20240301,
+        "fechaDevolucion": 20240305
+      }
+    },
+    {
+      "PrestamoSimple": {
+        "id": 1,
+        "socio": {
+          "ci": 3001,
+          "nombre": "Alvaro Castro",
+          "email": "alvaro@mail.com"
+        },
+        "libro": {
+          "tipo": "fisico",
+          "codigo": 1,
+          "titulo": "Cien Anios de Soledad",
+          "autor": "Garcia Marquez",
+          "ejemplares": 3
+        },
+        "fechaInicio": 20240301,
+        "fechaDevolucion": 20240310
+      }
+    }
+  ]
+}
