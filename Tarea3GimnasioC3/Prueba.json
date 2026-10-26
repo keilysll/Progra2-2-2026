@@ -1,0 +1,37 @@
+{
+  "nombre": "cardio",
+  "grupos": [
+    {
+      "id": "B",
+      "inscritos": [
+        {
+          "ci": 1,
+          "nombre": "Leonardo Castro"
+        },
+        {
+          "ci": 2,
+          "nombre": "Paola Perez"
+        },
+        {
+          "ci": 3,
+          "nombre": "Elena Castro"
+        }
+      ],
+      "sesiones": [
+        {
+          "fecha": 20210202,
+          "asistentes": [
+            {
+              "ci": 2,
+              "nombre": "Paola Perez"
+            },
+            {
+              "ci": 3,
+              "nombre": "Elena Castro"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
