@@ -1,0 +1,55 @@
+{
+  "nombre": "SkyDrop Sur",
+  "ciudad": "La Paz",
+  "drones": [
+    {
+      "tipo": "delivery",
+      "id": 101,
+      "modelo": "Falcon-X",
+      "autonomiaMin": 45,
+      "capacidadKg": 2.5
+    },
+    {
+      "tipo": "delivery",
+      "id": 103,
+      "modelo": "Falcon-Pro",
+      "autonomiaMin": 90,
+      "capacidadKg": 5.0
+    },
+    {
+      "tipo": "vigilancia",
+      "id": 205,
+      "modelo": "EyeSky",
+      "autonomiaMin": 60,
+      "resolucionMP": 12
+    }
+  ],
+  "misiones": [
+    {
+      "tipo": "entrega",
+      "id": 1,
+      "dronId": 101,
+      "duracionMin": 30,
+      "pesoKg": 1.5,
+      "origen": "Centro",
+      "destino": "Miraflores"
+    },
+    {
+      "tipo": "entrega",
+      "id": 5,
+      "dronId": 103,
+      "duracionMin": 80,
+      "pesoKg": 4.0,
+      "origen": "Centro",
+      "destino": "Sopocachi"
+    },
+    {
+      "tipo": "vigilancia",
+      "id": 3,
+      "dronId": 205,
+      "duracionMin": 60,
+      "zona": "Zona Norte",
+      "areaKm2": 5.0
+    }
+  ]
+}
