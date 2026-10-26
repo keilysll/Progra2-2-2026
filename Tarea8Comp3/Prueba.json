@@ -1,0 +1,25 @@
+{
+  "nombre": "Volta Centro",
+  "zona": "Cochabamba",
+  "cargadores": [
+    {
+      "tipo": "lento",
+      "codigo": "L1",
+      "potenciaKw": 11,
+      "tarifaKwh": 2
+    },
+    {
+      "tipo": "lento",
+      "codigo": "L2",
+      "potenciaKw": 22,
+      "tarifaKwh": 2
+    },
+    {
+      "tipo": "rapido",
+      "codigo": "R1",
+      "potenciaKw": 150,
+      "tarifaKwh": 3
+    }
+  ],
+  "sesiones": []
+}
