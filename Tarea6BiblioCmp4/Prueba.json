@@ -1,0 +1,18 @@
+{
+  "nombre": "CentralLib",
+  "materiales": [
+    {
+      "codigo": "L001",
+      "titulo": "Cien anios de soledad",
+      "autor": "Gabriel Garcia Marquez",
+      "paginas": 471,
+      "tipo": "libro"
+    },
+    {
+      "codigo": "R001",
+      "titulo": "National Geographic",
+      "edicion": 305,
+      "tipo": "revista"
+    }
+  ]
+}
