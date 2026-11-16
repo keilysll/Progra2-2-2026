@@ -1,0 +1,38 @@
+{
+  "nombre": "juan",
+  "fono": 7070000,
+  "creditos": [
+    {
+      "tipo": "CreditoCuotaFija",
+      "deuda cuota fija": 80
+    },
+    {
+      "tipo": "CreditoCuotaVariable",
+      "deuda cuota variable": 190
+    }
+  ],
+  "pagos": [
+    {
+      "id": 1,
+      "fecha": 20220101,
+      "monto": 5,
+      "tipo": "amortizacion"
+    },
+    {
+      "id": 2,
+      "fecha": 20220101,
+      "monto": 5,
+      "tipo": "amortizacion"
+    },
+    {
+      "id": 1,
+      "fecha": 20220101,
+      "tipo": "cuota"
+    },
+    {
+      "id": 2,
+      "fecha": 20220101,
+      "tipo": "cuota"
+    }
+  ]
+}
