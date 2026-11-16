@@ -1,20 +1,21 @@
 #pragma once
-#include "Nodo.h"
-template <class T>
+#include"Nodo.h"
+template<class T>
 class ListaEnlazada
 {
 private:
-	Nodo <T>* primerNodo;
+	Nodo<T>* primerNodo; 
 	int tam;
 public:
 	ListaEnlazada();
 	~ListaEnlazada();
-	void registrar(T* dato);
+	void registar(T* dato);
 	T* buscar(T* dato);
+	string toJson(string(*f)(T*));
 	void ordenar(bool(*f)(T*, T*));
-	string toJson(string(*json)(T*));
-	T*& operator[](int pos);
 	int getTam();
+	bool operator +=(T* dato);
+
 };
 
 template<class T>
@@ -30,13 +31,15 @@ ListaEnlazada<T>::~ListaEnlazada()
 }
 
 template<class T>
-void ListaEnlazada<T>::registrar(T* dato)
+void ListaEnlazada<T>::registar(T* dato)
 {
 	if (primerNodo == NULL)
-		primerNodo = new Nodo <T>(dato);
+	{
+		primerNodo = new Nodo<T>(dato);
+	}
 	else
 	{
-		Nodo <T>* tmp = primerNodo;
+		Nodo<T>* tmp = primerNodo;
 		while (tmp->getSig() != NULL)
 		{
 			tmp = tmp->getSig();
@@ -49,7 +52,7 @@ void ListaEnlazada<T>::registrar(T* dato)
 template<class T>
 T* ListaEnlazada<T>::buscar(T* dato)
 {
-	Nodo <T>* tmp = primerNodo;
+	Nodo<T>* tmp = primerNodo;
 	while (tmp != NULL)
 	{
 		if (*(tmp->getDato()) == dato)
@@ -60,29 +63,14 @@ T* ListaEnlazada<T>::buscar(T* dato)
 }
 
 template<class T>
-void ListaEnlazada<T>::ordenar(bool(*f)(T*, T*))
-{
-	if (!primerNodo) return;
-	for (Nodo <T>* i = primerNodo; i != NULL; i = i->getSig())
-	{
-		for (Nodo <T>* j = i->getSig(); j != NULL; j = j->getSig())
-		{
-			if ((*f)(i->getDato(), j->getDato()))
-			{
-				swap(i->getDato(), j->getDato());
-			}
-		}
-	}
-}
-
-template<class T>
-string ListaEnlazada<T>::toJson(string(*json)(T*))
+string ListaEnlazada<T>::toJson(string(*f)(T*))
 {
 	stringstream ss;
 	ss << "[";
-	Nodo <T>* tmp = primerNodo;
-	while (tmp != NULL) {
-		ss << (*json)(tmp->getDato());
+	Nodo<T>* tmp = primerNodo;
+	while (tmp != NULL)
+	{
+		ss << (*f)(tmp->getDato());
 		if (tmp->getSig() != NULL)
 			ss << ",";
 		tmp = tmp->getSig();
@@ -92,21 +80,44 @@ string ListaEnlazada<T>::toJson(string(*json)(T*))
 }
 
 template<class T>
-T*& ListaEnlazada<T>::operator[](int pos)
+void ListaEnlazada<T>::ordenar(bool(*f)(T*, T*))
 {
-	Nodo <T>* tmp = primerNodo;
-	for (int i = 0; i < pos; i++)
-		tmp = tmp->getSig();
-	return tmp->getDato();
+	if (!primerNodo) return;
+	for (Nodo<T>* i = primerNodo; i != NULL; i = i->getSig())
+	{
+		for (Nodo<T>* j = i->getSig(); j != NULL; j = j->getSig())
+		{
+			if ((*f)(i->getDato(), j->getDato()))
+			{
+				swap(i->getDato(), j->getDato());
+			}
+		}
+	}
+
 }
 
 template<class T>
-inline int ListaEnlazada<T>::getTam()
+int ListaEnlazada<T>::getTam()
 {
 	return tam;
 }
 
-
-
-
-
+template<class T>
+bool ListaEnlazada<T>::operator+=(T* dato)
+{
+	if (primerNodo == NULL)
+	{
+		primerNodo = new Nodo<T>(dato);
+	}
+	else
+	{
+		Nodo<T>* tmp = primerNodo;
+		while (tmp->getSig() != NULL)
+		{
+			tmp = tmp->getSig();
+		}
+		tmp->crearSig(dato);
+	}
+	tam++;
+	return true;
+}

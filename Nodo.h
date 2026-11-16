@@ -1,22 +1,24 @@
 #pragma once
-#include <iostream>
-#include <sstream>
-#include <string>
+#include<iostream>
+#include<sstream>
+#include<string>
 using namespace std;
-template <class T>
+template<class T>
 class Nodo
 {
 private:
 	T* dato;
-	Nodo <T>* sig;
+	Nodo<T>* sig;
 public:
 	Nodo(T* dato);
 	~Nodo();
 	T*& getDato();
-	Nodo <T>* getSig();
+	Nodo<T>* getSig();
 	void setDato(T* dato);
-	void setSig(Nodo <T>* sig);
+	void setSig(Nodo<T>* sig);
 	void crearSig(T* dato);
+
+
 };
 
 template<class T>
@@ -58,7 +60,5 @@ void Nodo<T>::setSig(Nodo<T>* sig)
 template<class T>
 void Nodo<T>::crearSig(T* dato)
 {
-	sig = new Nodo <T>(dato);
+	sig = new Nodo<T>(dato);
 }
-
-
