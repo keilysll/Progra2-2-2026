@@ -1,0 +1,90 @@
+{
+  "id": 1,
+  "local": {
+    "nombre": "Barcelona",
+    "jugadores": [
+      {
+        "ci": 11,
+        "nombre": "rob",
+        "fono": 12352
+      },
+      {
+        "ci": 13,
+        "nombre": "fabi",
+        "fono": 12353
+      },
+      {
+        "ci": 14,
+        "nombre": "sebas",
+        "fono": 12354
+      },
+      {
+        "ci": 15,
+        "nombre": "josh",
+        "fono": 12355
+      },
+      {
+        "ci": 1000,
+        "nombre": "cris",
+        "fono": 5555
+      }
+    ]
+  },
+  "visitante": {
+    "nombre": "Real Madrid",
+    "jugadores": [
+      {
+        "ci": 21,
+        "nombre": "jose",
+        "fono": 12342
+      },
+      {
+        "ci": 22,
+        "nombre": "juan",
+        "fono": 12341
+      },
+      {
+        "ci": 23,
+        "nombre": "pablo",
+        "fono": 12343
+      },
+      {
+        "ci": 24,
+        "nombre": "matias",
+        "fono": 12344
+      },
+      {
+        "ci": 25,
+        "nombre": "lucas",
+        "fono": 12345
+      }
+    ]
+  },
+  "eventos": [
+    {
+      "tipo": "gol",
+      "minuto": 10,
+      "equipo": "Barcelona",
+      "jugador": "leo"
+    },
+    {
+      "tipo": "gol",
+      "minuto": 12,
+      "equipo": "Real Madrid",
+      "jugador": "juan"
+    },
+    {
+      "tipo": "gol",
+      "minuto": 14,
+      "equipo": "Barcelona",
+      "jugador": "fabi"
+    },
+    {
+      "tipo": "cambio",
+      "minuto": 15,
+      "equipo": "Barcelona",
+      "entra": "cris",
+      "sale": "leo"
+    }
+  ]
+}
