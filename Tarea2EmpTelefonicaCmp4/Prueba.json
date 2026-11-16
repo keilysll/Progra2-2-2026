@@ -1,0 +1,60 @@
+{
+  "nombre": "viva",
+  "dirreccion": "Pedro Blanco",
+  "clientes": [
+    {
+      "nombre": "juan",
+      "saldo": 0,
+      "paquetes": [
+        {
+          "tipo": "minutos",
+          "saldo minutos": 0
+        },
+        {
+          "tipo": "megas",
+          "saldo megas": 10
+        }
+      ],
+      "detalle": [
+        {
+          "id": 1,
+          "fecha": 20220101,
+          "minutos": 5,
+          "tipo": "llamada"
+        },
+        {
+          "id": 3,
+          "fecha": 20220101,
+          "tipo": "descarga"
+        },
+        {
+          "id": 4,
+          "fecha": 20220101,
+          "tipo": "descarga"
+        }
+      ]
+    },
+    {
+      "nombre": "jose",
+      "saldo": 10,
+      "paquetes": [
+        {
+          "tipo": "minutos",
+          "saldo minutos": 0
+        },
+        {
+          "tipo": "megas",
+          "saldo megas": 10
+        }
+      ],
+      "detalle": [
+        {
+          "id": 2,
+          "fecha": 20220101,
+          "minutos": 5,
+          "tipo": "llamada"
+        }
+      ]
+    }
+  ]
+}
