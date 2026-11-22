@@ -1,0 +1,52 @@
+{
+  "nombre": "VoltBo",
+  "clientes": [
+    {
+      "nombre": "ana",
+      "saldo": 50,
+      "bonos": [
+        {
+          "tipo": "universal",
+          "kwh": 0
+        }
+      ],
+      "cargas": [
+        {
+          "id": 1,
+          "fecha": 20261101,
+          "tipo": "rapida",
+          "kwh": 5,
+          "costo": 0
+        }
+      ]
+    },
+    {
+      "nombre": "luis",
+      "saldo": 12,
+      "bonos": [],
+      "cargas": [
+        {
+          "id": 2,
+          "fecha": 20261101,
+          "tipo": "estandar",
+          "kwh": 4,
+          "costo": 8
+        }
+      ]
+    },
+    {
+      "nombre": "pedro",
+      "saldo": 0,
+      "bonos": [],
+      "cargas": [
+        {
+          "id": 3,
+          "fecha": 20261101,
+          "tipo": "rapida",
+          "kwh": 10,
+          "costo": 30
+        }
+      ]
+    }
+  ]
+}
